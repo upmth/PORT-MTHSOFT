@@ -1,0 +1,6 @@
+# Projeto restrito.
+# Por padrão, apenas README.md e este .gitignore entram no Git.
+
+*
+!README.md
+!.gitignore

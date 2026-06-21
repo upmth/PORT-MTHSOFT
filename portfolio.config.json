@@ -1,0 +1,27 @@
+{
+  "portfolio": {
+    "name": "[Seu nome ou marca]",
+    "headline": "[Sua frase principal]",
+    "bio_short": "[Bio curta]",
+    "bio_professional": "[Bio profissional]",
+    "github": "[Seu GitHub]",
+    "discord": "[Seu Discord]",
+    "email": "[Seu email]",
+    "style": "dark, professional, animated SVG, GitHub-focused"
+  },
+  "areas": [
+    "html",
+    "javascript",
+    "typescript",
+    "lua",
+    "python",
+    "redes-sociais",
+    "sql",
+    "outros"
+  ],
+  "private_areas": [
+    "javascript",
+    "typescript",
+    "sql"
+  ]
+}

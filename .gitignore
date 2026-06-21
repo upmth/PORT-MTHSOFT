@@ -1,0 +1,44 @@
+# Ambiente
+.env
+.env.*
+!.env.example
+
+# Dependências
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Sistemas
+.DS_Store
+Thumbs.db
+
+# Builds e cache
+dist/
+build/
+.cache/
+.parcel-cache/
+.next/
+out/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dados sensíveis
+*.sqlite
+*.db
+*.pem
+*.key
+*.p12
+*.crt
+secrets/
+private/
+credentials/
+
+# Arquivos locais de IDE
+.vscode/settings.json
+.idea/

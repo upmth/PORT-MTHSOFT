@@ -1,0 +1,45 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070A12"/>
+      <stop offset="0.5" stop-color="#111827"/>
+      <stop offset="1" stop-color="#050816"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="120" y1="60" x2="1080" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="0.5" stop-color="#06B6D4"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .pulse { animation: pulse 3s ease-in-out infinite; transform-origin: center; }
+      .dash { stroke-dasharray: 18 18; animation: dash 12s linear infinite; }
+      .float-a { animation: floatA 6s ease-in-out infinite; }
+      .float-b { animation: floatB 7s ease-in-out infinite; }
+      .fade { animation: fade 4s ease-in-out infinite; }
+      @keyframes dash { to { stroke-dashoffset: -240; } }
+      @keyframes pulse { 0%,100% { opacity: .6; transform: scale(1); } 50% { opacity: 1; transform: scale(1.02); } }
+      @keyframes floatA { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
+      @keyframes floatB { 0%,100% { transform: translateY(0); } 50% { transform: translateY(12px); } }
+      @keyframes fade { 0%,100% { opacity: .25; } 50% { opacity: .85; } }
+    </style>
+  </defs>
+  <rect width="1200" height="360" rx="32" fill="url(#bg)"/>
+  <path class="dash" d="M70 268 C220 118, 374 306, 540 172 C695 47, 860 252, 1130 94" stroke="url(#stroke)" stroke-width="3" opacity="0.8"/>
+  <circle class="pulse" cx="1000" cy="90" r="72" stroke="url(#stroke)" stroke-width="2" opacity="0.7" filter="url(#glow)"/>
+  <circle class="float-a" cx="190" cy="86" r="8" fill="#06B6D4" filter="url(#glow)"/>
+  <circle class="float-b" cx="1030" cy="250" r="10" fill="#22C55E" filter="url(#glow)"/>
+  <circle class="fade" cx="850" cy="82" r="5" fill="#7C3AED"/>
+  <circle class="fade" cx="320" cy="270" r="5" fill="#06B6D4"/>
+  <text x="80" y="142" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800">Portfólio de Desenvolvimento</text>
+  <text x="82" y="194" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="500">Projetos, estudos e evolução organizados em um repositório vivo.</text>
+  <text x="82" y="240" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="18">HTML • JavaScript • TypeScript • Lua • Python • SQL • Redes Sociais</text>
+  <rect x="80" y="270" width="250" height="42" rx="21" fill="#0F172A" stroke="#334155"/>
+  <text x="105" y="298" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">GitHub Portfolio Ready</text>
+</svg>

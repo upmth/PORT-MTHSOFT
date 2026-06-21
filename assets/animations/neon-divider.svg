@@ -1,0 +1,16 @@
+<svg width="1200" height="80" viewBox="0 0 1200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="40" x2="1200" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="0.5" stop-color="#06B6D4"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .line { stroke-dasharray: 32 24; animation: move 8s linear infinite; }
+      @keyframes move { to { stroke-dashoffset: -300; } }
+    </style>
+  </defs>
+  <rect width="1200" height="80" rx="18" fill="#050816"/>
+  <path class="line" d="M40 40H1160" stroke="url(#g)" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
+</svg>

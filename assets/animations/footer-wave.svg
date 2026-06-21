@@ -1,0 +1,18 @@
+<svg width="1200" height="160" viewBox="0 0 1200 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wave" x1="0" y1="0" x2="1200" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#06B6D4" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#22C55E" stop-opacity="0.55"/>
+    </linearGradient>
+    <style>
+      .w1 { animation: waveMove 7s ease-in-out infinite; }
+      .w2 { animation: waveMove 9s ease-in-out infinite reverse; }
+      @keyframes waveMove { 0%,100% { transform: translateX(0); } 50% { transform: translateX(-28px); } }
+    </style>
+  </defs>
+  <rect width="1200" height="160" rx="28" fill="#050816"/>
+  <path class="w1" d="M0 92 C200 30, 320 150, 520 88 C740 20, 880 130, 1200 70 V160 H0 Z" fill="url(#wave)"/>
+  <path class="w2" d="M0 120 C220 80, 360 130, 540 104 C760 72, 910 150, 1200 102 V160 H0 Z" fill="#0F172A" opacity="0.82"/>
+  <text x="600" y="82" text-anchor="middle" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Construído para evoluir</text>
+</svg>
