@@ -93,13 +93,6 @@ O GitHub não executa JavaScript dentro do README, então as animações foram f
 
 ---
 
-
-## Roadmap
-
-Veja o arquivo [ROADMAP.md](./ROADMAP.md).
-
----
-
 ## Contato
 
 - Discord: `[mth_2009rr]`
