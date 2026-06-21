@@ -4,7 +4,7 @@
 
 # Portfólio de Desenvolvimento
 
-**Um repositório vivo para organizar evolução, projetos, estudos e presença técnica.**
+**Um repositório vivo, eu acho**
 
 </div>
 
