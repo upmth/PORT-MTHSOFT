@@ -6,28 +6,24 @@
 
 **Um repositório vivo para organizar evolução, projetos, estudos e presença técnica.**
 
-![Status](./assets/badges/status-active.svg)
-![Portfolio](./assets/badges/type-portfolio.svg)
-![Focus](./assets/badges/focus-growth.svg)
-
 </div>
 
 ---
 
 ## Visão geral
 
-Este repositório foi criado para ser um **portfólio no GitHub**, não apenas um site.
+Este repositório foi criado para ser um **portfólio no GitHub**.
 
-A ideia é organizar projetos por área, manter uma apresentação profissional e deixar espaço preparado para evolução futura. Cada área tem seu próprio README e cada pasta de projeto futuro já possui um modelo editável.
+Divirta-se dando uma olhada no meu portfólio.
 
-> Troque os textos entre colchetes, adicione seus projetos reais aos poucos e mantenha este repositório como vitrine da sua evolução.
+> vai melhorar com o tempo, prometo 😓
 
 ---
 
 ## Identidade
 
-**Nome / marca:** `[Seu nome ou nome artístico]`  
-**Cargo em construção:** `[Ex: Desenvolvedor Front-end | Roblox Scripter | Python Developer]`  
+**Nome profissional:** `[Mth Soft]`  
+**Cargo em construção:** `[Ex: Desenvolvedor Back-end | Roblox Scripter | por enquanto...]`  
 **Frase principal:** `Transformo estudo em entrega real, organizando cada etapa da minha evolução em projetos claros, testáveis e bem documentados.`
 
 ---
@@ -35,12 +31,10 @@ A ideia é organizar projetos por área, manter uma apresentação profissional 
 ## Destaques
 
 - Estrutura separada por área de conhecimento.
-- READMEs prontos para preencher com experiência e projetos.
+- READMEs em cada projeto para não deixar você cego no meu portfólio.
 - Áreas restritas para JavaScript, TypeScript e SQL.
-- Assets visuais com animações em SVG para deixar o GitHub mais bonito.
 - Organização pensada para projetos futuros.
-- Segurança básica com `.gitignore` e `.env.example`.
-- Sem tokens, senhas ou chaves expostas.
+
 
 ---
 
@@ -63,17 +57,9 @@ A ideia é organizar projetos por área, manter uma apresentação profissional 
 
 ![Linha animada](./assets/animations/neon-divider.svg)
 
-O GitHub não executa JavaScript dentro do README, então as animações foram feitas com **SVG animado**, que funciona melhor em README de repositório.
+O GitHub não executa JavaScript dentro do README, então as animações foram feitas com **SVG animado**, que funciona melhor em README de repositório, e sim, deixo pegar 🫴.
 
-Para vídeos, use a pasta:
 
-```txt
-assets/videos/
-```
-
-Você pode colocar vídeos de demonstração dos projetos e linkar nos READMEs de cada projeto.
-
----
 
 ## Estrutura
 
@@ -107,57 +93,6 @@ Você pode colocar vídeos de demonstração dos projetos e linkar nos READMEs d
 
 ---
 
-## Como adicionar um projeto novo
-
-1. Entre na área correta.
-2. Escolha uma pasta vazia, por exemplo:
-
-```txt
-areas/python/projeto-01/
-```
-
-3. Edite o `README.md` do projeto.
-4. Coloque o código, imagens e vídeos necessários.
-5. Atualize o README principal da área.
-6. Atualize a tabela de destaques neste README principal.
-
----
-
-## Segurança
-
-Nunca coloque dados sensíveis no repositório.
-
-Não publique:
-
-- Tokens
-- Senhas
-- API keys
-- Dados privados
-- Banco de dados real
-- Arquivos `.env`
-- Credenciais do Discord, GitHub, Replit, Roblox ou qualquer serviço
-
-Use o arquivo `.env.example` apenas como modelo.
-
----
-
-## Variáveis de ambiente
-
-Copie o arquivo:
-
-```txt
-.env.example
-```
-
-E crie localmente:
-
-```txt
-.env
-```
-
-Depois preencha apenas no seu ambiente local.
-
----
 
 ## Roadmap
 
@@ -167,10 +102,9 @@ Veja o arquivo [ROADMAP.md](./ROADMAP.md).
 
 ## Contato
 
-- GitHub: `[seu GitHub]`
-- Discord: `[seu Discord]`
-- Email: `[seu email]`
-- Portfólio/site: `[link futuro]`
+- Discord: `[mth_2009rr]`
+- Email: `[studiosyank@gmail.com]`
+- Portfólio/site: `[tem não, ainda não...]`
 
 ---
 
@@ -178,6 +112,6 @@ Veja o arquivo [ROADMAP.md](./ROADMAP.md).
 
 ![Final](./assets/animations/footer-wave.svg)
 
-**Repositório preparado para crescer junto com seus projetos.**
+**Repositório feio.**
 
 </div>
