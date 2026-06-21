@@ -37,9 +37,9 @@
   <circle class="float-b" cx="1030" cy="250" r="10" fill="#22C55E" filter="url(#glow)"/>
   <circle class="fade" cx="850" cy="82" r="5" fill="#7C3AED"/>
   <circle class="fade" cx="320" cy="270" r="5" fill="#06B6D4"/>
-  <text x="80" y="142" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800">Portfólio de Desenvolvimento</text>
-  <text x="82" y="194" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="500">Projetos, estudos e evolução organizados em um repositório vivo.</text>
-  <text x="82" y="240" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="18">HTML • JavaScript • TypeScript • Lua • Python • SQL • Redes Sociais</text>
+  <text x="80" y="142" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800">Port do melhor do mundo <3</text>
+  <text x="82" y="194" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="500">Projetos e evolução minha, tentando né...</text>
+  <text x="82" y="240" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="18">Viva a comunidade programadora ^^ </text>
   <rect x="80" y="270" width="250" height="42" rx="21" fill="#0F172A" stroke="#334155"/>
-  <text x="105" y="298" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">GitHub Portfolio Ready</text>
+  <text x="105" y="298" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Mth Soft</text>
 </svg>
