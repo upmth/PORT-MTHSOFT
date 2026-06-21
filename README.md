@@ -16,7 +16,7 @@ Este repositório foi criado para ser um **portfólio no GitHub**.
 
 Divirta-se dando uma olhada no meu portfólio.
 
-> vai melhorar com o tempo, prometo 😓
+> vai melhorar com o tempo, prometo
 
 ---
 
