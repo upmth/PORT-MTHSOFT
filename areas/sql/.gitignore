@@ -2,8 +2,3 @@
 # Mantém apenas READMEs e estrutura de pastas no Git.
 
 *
-!README.md
-!.gitignore
-!projeto-*/
-!projeto-*/README.md
-!projeto-*/.gitignore
